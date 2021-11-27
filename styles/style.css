@@ -17,6 +17,7 @@
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  position: relative;
 }
 
 .logo {
@@ -39,7 +40,7 @@
   line-height: 96px;
   font-size: 102px;
   font-weight: 600;
-  z-index: 3;
+  z-index: 2;
   border: 1px solid red;
 }
 
@@ -51,7 +52,7 @@
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
-  z-index: 3;
+  z-index: 2;
   border: 1px solid red;
 }
 
@@ -59,13 +60,25 @@
   text-decoration: none;
 }
 
-.header__subtitle__link
+.header__subtitle__link {}
 
+.header__main-illustration {
+  width: 765px;
+  height: 608px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  border: 1px solid red;
+  z-index: 1;
+}
 
-/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 .header__square-pic {
+  position: absolute;
   height: 568px;
   width: 568px;
+  background-color: #2f80ed;
+  top: 64px;
+  right: 0;
 }
 
 

@@ -197,6 +197,56 @@
   border: 1px solid red;
 }
 
+.feynman {
+  background-color: #f2f2f2;
+  width: 100%;
+  height: 890px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  padding: 0;
+  border: 1px solid red;
+}
+
+.feynman__title {
+  line-height: 1.15;
+  font-size: 120px;
+  font-weight: 600;
+  width: 648px;
+  text-align: center;
+  margin: 100px auto 70px;
+  z-index: 2;
+  border: 1px solid red;
+}
+
+.feynman__subtitle {
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+  margin: 0;
+  z-index: 2;
+  border: 1px solid red;
+}
+
+.feynman__link {
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+  position: absolute;
+  right: 48px;
+  top: 50%;
+  z-index: 2;
+  border: 1px solid red;
+}
+
+.feynman__photo {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  border: 1px solid red;
+}
+
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
   width: 200px;

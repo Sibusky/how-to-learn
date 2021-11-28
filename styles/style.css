@@ -19,6 +19,7 @@
   align-items: center;
   position: relative;
   padding-left: 64px;
+  margin-bottom: 100px;
 }
 
 .logo {
@@ -85,7 +86,7 @@
 }
 
 .description {
-  margin-top: 100px;
+  margin-bottom: 100px;
   border: 1px solid red;
 }
 

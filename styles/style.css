@@ -77,8 +77,13 @@
   right: 0;
 }
 
+.content {
+  margin-top: 100px;
+}
 
-
+.two-columns {
+display: flex;
+}
 
 
 

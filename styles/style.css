@@ -35,7 +35,6 @@ a img {
 .logo_place_header {
   position: absolute;
   top: 30px;
-  border: 1px solid red;
 }
 
 .header__title {
@@ -45,7 +44,6 @@ a img {
   font-size: 102px;
   font-weight: 600;
   z-index: 2;
-  border: 1px solid red;
 }
 
 .header__subtitle {
@@ -56,7 +54,6 @@ a img {
   font-size: 18px;
   font-weight: normal;
   z-index: 2;
-  border: 1px solid red;
 }
 
 .link {
@@ -70,7 +67,6 @@ a img {
   position: absolute;
   right: 0;
   bottom: 0;
-  border: 1px solid red;
   z-index: 1;
 }
 
@@ -87,12 +83,10 @@ a img {
   display: flex;
   flex-direction: column;
   align-items: center;
-  border: 1px solid red;
 }
 
 .description {
   margin-bottom: 100px;
-  border: 1px solid red;
 }
 
 .two-columns {
@@ -100,7 +94,6 @@ a img {
   align-items: flex-start;
   width: 80%;
   justify-content: space-between;
-  border: 1px solid red;
 }
 
 .two-columns__brief {
@@ -110,7 +103,6 @@ a img {
   font-weight: normal;
   color: #2f80ed;
   margin: 0;
-  border: 1px solid red;
 }
 
 .two-columns__main-text {
@@ -119,13 +111,11 @@ a img {
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
-  border: 1px solid red;
 }
 
 .two-columns__paragraph {
   margin-top: 0;
   margin-bottom: 30px;
-  border: 1px solid red;
 }
 
 /* убираем отступ у последнего параграфа */
@@ -145,7 +135,6 @@ a img {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  border: 1px solid red;
 }
 
 .section-title {
@@ -155,7 +144,6 @@ a img {
   font-weight: 600;
   text-align: center;
   margin: 0 auto 20px;
-  border: 1px solid red;
 }
 
 .section_subtitle {
@@ -165,7 +153,6 @@ a img {
   font-weight: normal;
   text-align: center;
   margin: 0 auto;
-  border: 1px solid red;
 }
 
 .table {
@@ -176,13 +163,11 @@ a img {
   margin: 0 auto;
   padding: 0;
   list-style: none;
-  border: 1px solid red;
 }
 
 .table__cell {
   width: 250px;
   margin: 60px 0 0;
-  border: 1px solid red;
 }
 
 .table__heading {
@@ -190,7 +175,6 @@ a img {
   font-size: 24px;
   font-weight: 600;
   margin: 0;
-  border: 1px solid red;
 }
 
 .table__text {
@@ -198,7 +182,6 @@ a img {
   font-size: 18px;
   font-weight: normal;
   margin: 20px auto 0;
-  border: 1px solid red;
 }
 
 .feynman {
@@ -210,7 +193,6 @@ a img {
   align-items: center;
   position: relative;
   padding: 0;
-  border: 1px solid red;
 }
 
 .feynman__title {
@@ -221,7 +203,6 @@ a img {
   text-align: center;
   margin: 100px auto 70px;
   z-index: 2;
-  border: 1px solid red;
 }
 
 .feynman__subtitle {
@@ -230,7 +211,6 @@ a img {
   font-weight: normal;
   margin: 0;
   z-index: 2;
-  border: 1px solid red;
 }
 
 .feynman__link {
@@ -241,14 +221,12 @@ a img {
   right: 48px;
   top: 50%;
   z-index: 2;
-  border: 1px solid red;
 }
 
 .feynman__photo {
   position: absolute;
   left: 0;
   bottom: 0;
-  border: 1px solid red;
 }
 
 .kaufman {
@@ -260,7 +238,6 @@ a img {
   position: relative;
   padding: 0;
   overflow: hidden;
-  border: 1px solid red;
 }
 
 .section-title_theme_dark {
@@ -300,7 +277,6 @@ a img {
   display: flex;
   box-sizing: border-box;
   padding: 60px 0 40px;
-  border: 1px solid red;
 }
 
 .footer__column {
@@ -308,7 +284,6 @@ a img {
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
-  border: 1px solid red;
 }
 
 .footer__column_content_copyright {
@@ -316,7 +291,6 @@ a img {
   flex-direction: column;
   justify-content: space-between;
   margin: 0;
-  border: 1px solid red;
 }
 
 .footer__column_content_info {
@@ -326,7 +300,6 @@ a img {
   justify-content: flex-start;
   color: white;
   margin: 0;
-  border: 1px solid red;
 }
 
 .footer__column_content_social {
@@ -337,7 +310,6 @@ a img {
   color: white;
   padding: 0;
   margin: 0;
-  border: 1px solid red;
 }
 
 /* в html сделал как div, а не как img. Почему-то во втором случае (с img) появляется белая рамка вокруг. 
@@ -346,7 +318,6 @@ a img {
   background-image: url(../images/logo_place_footer.svg);
   width: 183px;
   height: 35px;
-  border: 1px solid red;
 }
 
 .footer__author {
@@ -355,7 +326,6 @@ a img {
   font-size: 18px;
   font-weight: normal;
   margin: 18px 0;
-  border: 1px solid red;
 }
 
 .footer__column-heading {
@@ -364,7 +334,6 @@ a img {
   font-size: 18px;
   font-weight: 600;
   margin: 0 0 20px;
-  border: 1px solid red;
 }
 
 .footer__column-links {
@@ -373,7 +342,6 @@ a img {
   margin: 0 0 16px;
   padding: 0;
   list-style: none;
-  border: 1px solid red;
 }
 
 .footer__social-icon {

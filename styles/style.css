@@ -286,13 +286,6 @@ a img {
   margin-top: 80px;
 }
 
-.table__heading_theme_dark {
-}
-
-.table__text_theme_dark {
-
-}
-
 .kaufman__triangle {
   position: absolute;
   top: 0;
@@ -305,47 +298,50 @@ a img {
   background-color: #1f1f1f;
   min-height: 350px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  box-sizing: border-box;
+  padding: 60px 0 40px;
   border: 1px solid red;
 }
 
-.footer__columns {
+.footer__column {
   width: 90%;
-  height: 100%;
   display: flex;
   justify-content: space-between;
-  margin-top: 60px;
-  margin-bottom: 40px;
+  margin: 0 auto;
   border: 1px solid red;
 }
 
-.footer__columns_content_copyright {
+.footer__column_content_copyright {
   flex-basis: 711px;
-  display: flex;
   flex-direction: column;
   justify-content: space-between;
+  margin: 0;
   border: 1px solid red;
 }
 
-.footer__columns_content_info {
+.footer__column_content_info {
   flex-basis: content;
   display: flex;
   flex-direction: column;
+  justify-content: flex-start;
   color: white;
+  margin: 0;
   border: 1px solid red;
 }
 
-.footer__columns_content_social {
+.footer__column_content_social {
   flex-basis: content;
   display: flex;
   flex-direction: column;
+  justify-content: flex-start;
   color: white;
+  padding: 0;
+  margin: 0;
   border: 1px solid red;
 }
 
 /* в html сделал как div, а не как img. Почему-то во втором случае (с img) появляется белая рамка вокруг. 
-думаю, можно убрать с помощью border: none, но через div показалось логичнее */
+думаю, пробовал убрать с помощью "a img border: none", но не вышло */
 .logo_place_footer {
   background-image: url(../images/logo_place_footer.svg);
   width: 183px;
@@ -375,11 +371,9 @@ a img {
   display: flex;
   flex-direction: column;
   margin: 0 0 16px;
+  padding: 0;
+  list-style: none;
   border: 1px solid red;
-}
-
-.footer__column-icon {
-
 }
 
 .footer__social-icon {

@@ -1,0 +1,9 @@
+.footer__column_content_social {
+    flex-basis: content;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    color: white;
+    padding: 0;
+    margin: 0;
+  }

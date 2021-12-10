@@ -21,6 +21,10 @@
 @import url(./cards/__image/cards__image.css);
 @import url(./cards/__title/cards__title.css);
 @import url(./cards/__description/cards__description.css);
+@import url(./video/video.css);
+@import url(./video/__iframes/video__iframes.css);
+@import url(./video/__iframe/video__iframe.css);
+
 @import url(./digits/digits.css);
 @import url(./section-title/section-title.css);
 @import url(./section-subtitle/section-subtitle.css);
@@ -54,9 +58,21 @@
 
 
 
- 
 
 
+
+
+
+
+
+
+
+
+.content__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
 
 

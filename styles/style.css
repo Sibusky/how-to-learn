@@ -25,6 +25,18 @@
 @import url(./video/__iframes/video__iframes.css);
 @import url(./video/__iframe/video__iframe.css);
 @import url(./oakley/oakley.css);
+@import url(./khan/khan.css);
+@import url(./khan/__container/khan__container.css);
+@import url(./khan/__autor/khan__autor.css);
+@import url(./khan/__title/khan__title.css);
+@import url(./khan/__quote/khan__quote.css);
+@import url(./khan/__quote-author/khan__quote-author.css);
+@import url(./khan/__quote-author-subtitle/khan__quote-author-subtitle.css);
+@import url(./khan/__book-container/khan__book-container.css);
+@import url(./khan/__book-pic/khan__book-pic.css);
+@import url(./khan/__buy-link/khan__buy-link.css);
+
+
 
 
 @import url(./digits/digits.css);
@@ -63,6 +75,8 @@
 
 
 
+
+
 .content__item {
   display: flex;
   flex-direction: column;
@@ -70,5 +84,7 @@
 }
 
 
-
+/* link colors */
+/* margins */
+/* order of imports */
 

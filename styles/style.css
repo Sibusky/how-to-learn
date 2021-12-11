@@ -9,6 +9,13 @@
 @import url(./header/__main-illustration/header__main-illustration.css);
 @import url(./header/__square-pic/header__square-pic.css);
 @import url(./content/content.css);
+@import url(./content/__item/content__item.css);
+@import url(./content/__item/content__item_padding-top_regular.css);
+@import url(./content/__item/content__item_padding-bottom_regular.css);
+@import url(./content/__item/content__item_padding-top_bigger.css);
+@import url(./content/__item/content__item_padding-top_biggest.css);
+@import url(./content/__item/content__item_padding-top_smaller.css);
+@import url(./content/__item/content__item_margin-bottom_neg.css);
 @import url(./description/description.css);
 @import url(./two-columns/two-columns.css);
 @import url(./two-columns/__brief/two-columns__brief.css);
@@ -72,15 +79,6 @@
 
 
 
-
-.content__item {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-
-/* link colors */
-/* margins */
+/* delete unused flexes */
 /* order of imports */
 

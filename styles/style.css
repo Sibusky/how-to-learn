@@ -35,10 +35,6 @@
 @import url(./khan/__book-container/khan__book-container.css);
 @import url(./khan/__book-pic/khan__book-pic.css);
 @import url(./khan/__buy-link/khan__buy-link.css);
-
-
-
-
 @import url(./digits/digits.css);
 @import url(./section-title/section-title.css);
 @import url(./section-subtitle/section-subtitle.css);
@@ -57,6 +53,9 @@
 @import url(./table/table_theme_dark.css);
 @import url(./table/__cell/table__cell_theme_dark.css);
 @import url(./kaufman/__triangle/kaufman__triangle.css);
+@import url(./resourses/resourses.css);
+@import url(./resourses/__logo-zone/resourses__logo-zone.css);
+@import url(./resourses/__logo/resourses__logo.css);
 @import url(./footer/footer.css);
 @import url(./footer/__column/footer__column.css);
 @import url(./footer/__column/footer__column_content_copyright.css);
@@ -69,9 +68,6 @@
 @import url(./footer/__social-icon/footer__social-icon.css);
 @import url(./footer/__column/footer__column-link.css);
 @import url(./rotation/rotation.css);
-
-
-
 
 
 

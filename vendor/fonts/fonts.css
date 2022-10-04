@@ -13,11 +13,3 @@
   src: url(./Raleway-Bold.woff2) format('woff2'),
     url(./Raleway-Bold.woff) format('woff');
 }
-
-@font-face {
-  font-family: 'Raleway';
-  font-style: normal;
-  font-weight: 900;
-  src: url(./Raleway-Black.woff2) format('woff2'),
-    url(./Raleway-Black.woff) format('woff');
-}
